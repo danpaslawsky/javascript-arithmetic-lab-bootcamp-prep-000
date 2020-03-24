@@ -18,4 +18,15 @@ function divide(a,b){
   return (a/b);
 }
 
-function 
+function increment(n){
+  return n+=1;
+}
+
+function decrement(n){
+  return --n;
+}
+
+function makeInt(n){
+  return parseFloat(n);
+}
+  
